@@ -1,9 +1,9 @@
 package lt.bta.java.entities;
 
-import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 
-public class Student  {
+public class Student implements Comparable<Student> {
 
     private int id;
     private String firstName;
@@ -51,8 +51,58 @@ public class Student  {
         this.grades = grades;
     }
 
+
     @Override
-    public String toString() {
-        return "id " + id + " vardas " + firstName + " pavarde " + lastName + " el pastas " + email + " pazymiai " + grades;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student stud = (Student) o;
+
+        return stud.id == id;
     }
-}
+
+    @Override
+
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+
+    @Override
+    public int compareTo(Student o) {
+        int cmp = this.lastName.compareToIgnoreCase(o.lastName);
+
+        if (cmp != 0)
+            return cmp;//nes pagal zodyna trumpesnis zodis eina pirmiau nei ilgesnis turintis tokia pacia sakni
+
+        cmp = this.firstName.compareToIgnoreCase(o.firstName);
+        return cmp;
+    }
+
+
+    //studento pazymiu vidurkis
+    public double averageStudentGrade(int year) {
+        double sum = grades.stream()
+                .filter(grade -> grade.getDate().getYear() == year)
+                .mapToDouble(Grade::getGrade)
+                .sum();
+
+        int count = (int) grades.stream()
+                .filter(grade -> grade.getDate().getYear() == year)
+                .count();
+
+        double average = 0;
+
+        if (count != 0){
+            average = sum / count;
+        }
+        return average;
+    }
+
+
+
+        @Override
+        public String toString () {
+            return id + " " + firstName + " " + lastName + " " + email + " " + grades;
+        }
+    }

@@ -1,8 +1,5 @@
 package lt.bta.java.entities;
 
-import sun.util.calendar.BaseCalendar;
-
-
 import java.time.LocalDate;
 
 public class Grade {
@@ -48,6 +45,6 @@ public class Grade {
 
     @Override
     public String toString() {
-        return "" + grade;
+        return " " + grade;
     }
 }
