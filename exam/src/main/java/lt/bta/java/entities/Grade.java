@@ -48,6 +48,6 @@ public class Grade {
 
     @Override
     public String toString() {
-        return " " + grade + " id= " + id;
+        return " " + grade;
     }
 }
