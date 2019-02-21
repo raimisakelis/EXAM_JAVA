@@ -2,6 +2,9 @@ package lt.bta.java.entities;
 
 import java.time.LocalDate;
 
+/**
+ * Klase skirta dirbti su studento pazymiais.
+ */
 public class Grade {
 
     private int id;
@@ -45,6 +48,6 @@ public class Grade {
 
     @Override
     public String toString() {
-        return " " + grade;
+        return " " + grade + " id= " + id;
     }
 }

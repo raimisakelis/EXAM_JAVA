@@ -3,6 +3,12 @@ package lt.bta.java.entities;
 import java.util.List;
 import java.util.Objects;
 
+
+/**
+ * Klase aprasanti studenta. Joje yra keletas metodu
+ * skirtu studentu palyginimui bei studento pazymiu
+ * vidurkio skaiciavimui.
+ */
 public class Student implements Comparable<Student> {
 
     private int id;
@@ -52,12 +58,19 @@ public class Student implements Comparable<Student> {
     }
 
 
+    /**
+     * Metodas, skirtas nustatyti objekto unikaluma.
+     * Įvertinimas atliekamas, lyginant unikalu Student
+     * objekto id lauka.
+     *
+     * @param o Student tipo objektas
+     * @return true arba false
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student stud = (Student) o;
-
         return stud.id == id;
     }
 
@@ -68,19 +81,31 @@ public class Student implements Comparable<Student> {
     }
 
 
+    /**
+     * Metodas, skirtas lyginti skirtingus Student tipo objektus,
+     * siekiant juos surikiuoti. Pirmiausia lyginamos pavardes,
+     * jei jos lygios, lyginami vardai.
+     *
+     * @param o Student tipo objektas
+     * @return teigiama, neigiama skaiciu
+     * arba 0
+     */
     @Override
     public int compareTo(Student o) {
         int cmp = this.lastName.compareToIgnoreCase(o.lastName);
-
-        if (cmp != 0)
-            return cmp;//nes pagal zodyna trumpesnis zodis eina pirmiau nei ilgesnis turintis tokia pacia sakni
-
+        if (cmp != 0) return cmp;
         cmp = this.firstName.compareToIgnoreCase(o.firstName);
         return cmp;
     }
 
 
-    //studento pazymiu vidurkis
+    /**
+     * Suskaiciuoja studento pazymių vidurki
+     *
+     * @param year metai, pagal kuriuos skaiciuojamas
+     *             pazymiu vidurkis
+     * @return vidurki
+     */
     public double averageStudentGrade(int year) {
         double sum = grades.stream()
                 .filter(grade -> grade.getDate().getYear() == year)
@@ -93,16 +118,15 @@ public class Student implements Comparable<Student> {
 
         double average = 0;
 
-        if (count != 0){
+        if (count != 0) {
             average = sum / count;
         }
         return average;
     }
 
 
-
-        @Override
-        public String toString () {
-            return id + " " + firstName + " " + lastName + " " + email + " " + grades;
-        }
+    @Override
+    public String toString() {
+        return id + " " + firstName + " " + lastName + " " + email + " " + grades;
     }
+}

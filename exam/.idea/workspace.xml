@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/bta/java/Execution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/bta/java/Execution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Grade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/bta/java/util/ExecuteSQL.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +16,36 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dienynas@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dienynas@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dienynas@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dienynas: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1407142940">
@@ -105,14 +136,59 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1356197937">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1173" />
+          <entry key="sql" value="40" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1173" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Scratch" value="40" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Execution" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="3" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/Execution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="319">
+              <caret line="125" column="22" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,14 +196,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/lt/bta/java/Execution.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#2435#2436#0" expanded="true" />
-                <element signature="e#2532#2533#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,17 +218,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Grade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/util/ExecuteSQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding>
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +246,9 @@
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Studentas.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/util/ConnectDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/util/ExecuteSQL.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3ea71388-0c61-4729-8476-e241bdae9b4d/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3ea71388-0c61-4729-8476-e241bdae9b4d/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Grade.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/lt/bta/java/Execution.java" />
@@ -190,10 +269,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="5" />
-    <option name="width" value="820" />
-    <option name="height" value="1047" />
+    <option name="x" value="473" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +290,62 @@
             <path>
               <item name="exam" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+              <item name="bta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="lt" type="462c0819:PsiDirectoryNode" />
+              <item name="bta" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,10 +355,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550430856037" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JAVA2_MAVEN/mavenproject1_copy1" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550775847395" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -276,6 +411,10 @@
       <workItem from="1550305609863" duration="28671000" />
       <workItem from="1550395563175" duration="1584000" />
       <workItem from="1550399574656" duration="16137000" />
+      <workItem from="1550600176866" duration="2495000" />
+      <workItem from="1550643093028" duration="759000" />
+      <workItem from="1550756462791" duration="7591000" />
+      <workItem from="1550775289326" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1550092678070</created>
@@ -295,13 +434,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63208000" />
+    <option name="totallyTimeSpent" value="74601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,16 +448,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12689805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19739696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.47071582" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.06941432" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.15184382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,7 +466,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
@@ -343,13 +482,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/exam.iml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -357,40 +489,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ea71388-0c61-4729-8476-e241bdae9b4d/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#2435#2436#0" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/lt.bta.java.Execution">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>lt.bta.java.Execution</OriginalElement>
+          <nodes>
+            <node x="" y="">lt.bta.java.Execution</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="179.0" y="59.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/util/ExecuteSQL.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ea71388-0c61-4729-8476-e241bdae9b4d/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="90">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/util/ExecuteSQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/entities/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lt/bta/java/Execution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="319">
+          <caret line="125" column="22" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/lt/bta/java/Execution.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
